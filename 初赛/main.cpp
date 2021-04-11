@@ -761,7 +761,7 @@ int main() {
 #endif // TEST
     vector<vector<string> > BestExpanRes,BestMigrateRes,BestCreateVmRes;
 
-    int failure_cnt=0;
+    int failure_cnt=2000;
     Solver solver(1024,failure_cnt);
     int ret = solver.HandleRequest();
     if(ret==-1) {
